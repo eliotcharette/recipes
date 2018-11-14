@@ -8,7 +8,7 @@ import {Recipe} from '../recipe.model';
 })
 export class RecipesListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('Tacos', 'delicious mexican food', 'https://en.wikipedia.org/wiki/Taco#/media/File:001_Tacos_de_carnitas,_carne_asada_y_al_pastor.jpg')
+    new Recipe('Tacos', 'delicious mexican food', 'http://media.paleomg.com/2018/01/EN0A4293.jpg')
   ];
   constructor() { }
 
